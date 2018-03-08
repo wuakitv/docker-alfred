@@ -6,6 +6,6 @@ USER root
 RUN curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 RUN chmod +x /usr/local/bin/docker-compose
 
-RUN install-plugins.sh github-oauth pipeline-multibranch-defaults ec2 ansicolor datadog
+RUN install-plugins.sh github-oauth pipeline-multibranch-defaults ec2 ansicolor datadog pipeline-utility-steps
 
 USER jenkins
