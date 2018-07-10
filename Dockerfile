@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.126
+FROM jenkins/jenkins:2.131
 
 ENV DOCKER_COMPOSE_VERSION 1.21.1
 
@@ -9,7 +9,7 @@ RUN chmod +x /usr/local/bin/docker-compose
 # how to generate a plugins.txt from an existing jenkins instance
 # in /script
 #
-#def plugins = jenkins.model.Jenkins.instance.getPluginManager().getPlugins()
+#def plugins = jenkins.model.Jenkins.instance.getPluginManager().getPlugins().toSorted()
 #plugins.each {println "${it.getShortName()}: ${it.getVersion()}"}
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
