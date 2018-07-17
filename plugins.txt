@@ -81,3 +81,4 @@ workflow-scm-step:2.6
 workflow-step-api:2.16
 workflow-support:2.19
 ws-cleanup:0.34
+logfilesizechecker:1.3
