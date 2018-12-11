@@ -18,7 +18,7 @@ datadog:0.6.3
 display-url-api:2.2.0
 docker-commons:1.13
 docker-workflow:1.17
-durable-task:1.25
+durable-task:1.28
 ec2:1.39
 email-ext:2.63
 git:3.9.1
