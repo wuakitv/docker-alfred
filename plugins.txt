@@ -29,7 +29,6 @@ github-api:1.92
 github-branch-source:2.3.6
 github-oauth:0.29
 gradle:1.29
-greenballs:1.15
 handlebars:1.1.1
 jackson2-api:2.8.11.3
 jdk-tool:1.1
