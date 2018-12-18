@@ -19,6 +19,6 @@ RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
 RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.InstallUtil.lastExecVersion
 
 # copy github auth configuration
-COPY githubauth-config.groovy /var/jenkins_home/init.groovy.d/githubauth-config.groovy
+COPY githubauth-config.groovy /usr/share/jenkins/ref/init.groovy.d/githubauth-config.groovy
 
 USER jenkins
