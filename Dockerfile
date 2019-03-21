@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.138
+FROM jenkins/jenkins:2.164.1
 
 ENV DOCKER_COMPOSE_VERSION 1.21.1
 
