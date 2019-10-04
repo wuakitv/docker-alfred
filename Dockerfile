@@ -1,6 +1,7 @@
-FROM jenkins/jenkins:2.164.1
+FROM jenkins/jenkins:2.176.3
 
-ENV DOCKER_COMPOSE_VERSION 1.21.1
+ENV DOCKER_COMPOSE_VERSION 1.24.1
+ENV JENKINS_UC_DOWNLOAD="http://mirrors.jenkins-ci.org"
 
 USER root
 RUN curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
