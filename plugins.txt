@@ -32,6 +32,7 @@ blueocean-web:1.19.0
 bouncycastle-api:2.17
 branch-api:2.5.4
 build-timeout:1.19
+build-with-parameters:1.4
 cloudbees-bitbucket-branch-source:2.5.0
 cloudbees-folder:6.9
 command-launcher:1.3
