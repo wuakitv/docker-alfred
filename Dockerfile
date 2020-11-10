@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.204.2
+FROM jenkins/jenkins:2.249.3
 
 ENV DOCKER_COMPOSE_VERSION 1.24.1
 ENV JENKINS_UC_DOWNLOAD="http://mirrors.jenkins-ci.org"
