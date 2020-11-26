@@ -46,7 +46,7 @@ display-url-api:2.3.3
 docker-commons:1.17
 docker-workflow:1.24
 durable-task:1.35
-ec2:1.54
+ec2:1.51
 echarts-api:4.9.0-2
 email-ext:2.79
 favorite:2.3.2
