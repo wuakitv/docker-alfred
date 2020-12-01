@@ -33,6 +33,7 @@ bootstrap4-api:4.5.3-1
 bouncycastle-api:2.18
 branch-api:2.6.2
 build-timeout:1.20
+build-with-parameters:1.5
 checks-api:1.1.0
 cloudbees-bitbucket-branch-source:2.9.4
 cloudbees-folder:6.15
